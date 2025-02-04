@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: auto;
+    background-color: rgb(246, 246, 36);
+}
+.link{
+    letter-spacing: 1.5px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link a{
+    text-decoration:none;
+    font-weight:bold;
+   font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 15px;
+}
+.nav-names:hover{
+    text-decoration:underline 2px;
+}
+.compare,img,a{
+    display: flex;
+    align-items: center;
+}
+.nav-names2{
+    text-decoration: none;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    
+}
+.nav-names2:hover{
+    text-decoration: underline 2px orange;
+}
+.home{
+    display: flex;
+    gap: 30px;
+    height:70px;
+    padding-left: 50px;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top:0;
+}
+.home a{
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60vh;
+}
+.sub-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+
+}
+.sub-hero,p{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.sub-hero,h1{
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+}
+.address{
+   margin: 100px;
+}
+.timings{
+    margin: 100px; 
+}
+.timings,h3{
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.support{
+    margin: 100px;
+}
+.support,h3{
+    letter-spacing: 1.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+.knowledge{
+    margin: 100px;
+}
+.knowledge,h3{
+     letter-spacing: 1.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-2{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    background-color: rgb(241, 241, 9);
+    border:2px solid rgb(241, 241, 9);
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+    margin: 30px;
+     
+}
+.btn-2:hover{
+    background-color: white;
+    border-color: rgb(240, 240, 16);
+}
+.contact{
+    margin-top: 100px;
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: black;
+    height: 300px;
+    width: 100%;
+}
+.btn-3{
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    background-color: rgb(241, 241, 9);
+    border:2px solid rgb(241, 241, 9);
+    margin: 50px;
+    cursor: pointer;
+   
+}
+.btn-3:hover{
+    background-color: black;
+    border-color: rgb(240, 240, 16);
+    color:yellow;
+}
+.main-end{
+    height: 500px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid white;   
+    padding-top: 50px; 
+}
+.end{
+     background: #f1f2f2;
+     display: flex;
+     align-items:center;
+     justify-content:center;
+     width: 60%;
+     flex-wrap: wrap;
+     gap: 100px;
+     
+}
+.end div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+ }
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    color: #0a0203;
+    gap: 100px;
+    margin-bottom: 40px;
+}
+footer{
+    background: #f1f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.bi-icon{
+    height: 35px;
+    width: 35px;
+ }
+ .about-1 ul li a {
+    margin-bottom: 20px;
+    color: #0a0203;
+    text-decoration: none;
+    font-size: large;
+ }
+ .about-2 ul li a{
+    margin-bottom: 20px;
+    color: #0a0203;
+    text-decoration: none;
+    font-size: large;
+ }
+ .about-1 ul li a:hover {
+    text-decoration: underline;
+ }
+ .about-2 ul li a:hover {
+    text-decoration: underline;
+ }
+
+ .copyright-wrapper{
+    height: 100px;
+    padding: 40px;
+ }
+
+
+
+ 
+
+ 
+ 
